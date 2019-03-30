@@ -51,9 +51,14 @@ class _PaymentState extends State<Payment> {
         setState(() {
           print("URL changed: $url");
           if (url.contains('callback')) {
-            var x = flutterWebviewPlugin.getCookies();
-            flutterWebviewPlugin.evalJavascript('document').then((body) {
-              print("status $body");
+            flutterWebviewPlugin.getCookies().then((cookies) {
+              print("cookies $cookies");
+              print('TXNID $cookies["TXNID"]');
+              print('STATUS $cookies["STATUS"]');
+              print('RESPCODE $cookies["RESPCODE"]');
+              print('RESPMSG $cookies["RESPMSG"]');
+              print('TXNDATE $cookies["TXNDATE"]');
+              // add logic to make show payment status
               flutterWebviewPlugin.close();
             });
           }
@@ -64,7 +69,8 @@ class _PaymentState extends State<Payment> {
 
   @override
   Widget build(BuildContext context) {
-    final queryParams = '?order_id=$orderId&customer_id=$customerId&amount=$amount&email=$email';
+    final queryParams =
+        '?order_id=$orderId&customer_id=$customerId&amount=$amount&email=$email';
 
     return new WebviewScaffold(
         url: Settings.apiUrl + queryParams,
