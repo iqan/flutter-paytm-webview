@@ -3,17 +3,6 @@
 A demo flutter app for payments using paytm and node api backend
 
 
-## Screenshots
-
-![1](./screenshots/1.png | width=100)
-![1](./screenshots/2.png | width=100)
-![1](./screenshots/3.png | width=100)
-![1](./screenshots/4.png | width=100)
-![1](./screenshots/5.png | width=100)
-![1](./screenshots/6.png | width=100)
-![1](./screenshots/7.png | width=100)
-
-
 ## Getting Started
 
 ### Prerequisites
@@ -26,3 +15,14 @@ A demo flutter app for payments using paytm and node api backend
 - Update order/transaction information in `Paytm.dart`
 - Run flutter app
 `flutter run`
+
+
+## Screenshots
+
+<img width="400" alt="1" src="./screenshots/1.png">
+<img width="400" alt="1" src="./screenshots/2.png">
+<img width="400" alt="1" src="./screenshots/3.png">
+<img width="400" alt="1" src="./screenshots/4.png">
+<img width="400" alt="1" src="./screenshots/5.png">
+<img width="400" alt="1" src="./screenshots/6.png">
+<img width="400" alt="1" src="./screenshots/7.png">
