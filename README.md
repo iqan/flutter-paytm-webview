@@ -5,13 +5,13 @@ A demo flutter app for payments using paytm and node api backend
 
 ## Screenshots
 
-![1](./screenshots/1.png)
-![1](./screenshots/2.png)
-![1](./screenshots/3.png)
-![1](./screenshots/4.png)
-![1](./screenshots/5.png)
-![1](./screenshots/6.png)
-![1](./screenshots/7.png)
+![1](./screenshots/1.png | width=100)
+![1](./screenshots/2.png | width=100)
+![1](./screenshots/3.png | width=100)
+![1](./screenshots/4.png | width=100)
+![1](./screenshots/5.png | width=100)
+![1](./screenshots/6.png | width=100)
+![1](./screenshots/7.png | width=100)
 
 
 ## Getting Started
