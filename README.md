@@ -19,10 +19,10 @@ A demo flutter app for payments using paytm and node api backend
 
 ## Screenshots
 
-<img width="400" alt="1" src="./screenshots/1.png">
-<img width="400" alt="1" src="./screenshots/2.png">
-<img width="400" alt="1" src="./screenshots/3.png">
-<img width="400" alt="1" src="./screenshots/4.png">
-<img width="400" alt="1" src="./screenshots/5.png">
-<img width="400" alt="1" src="./screenshots/6.png">
-<img width="400" alt="1" src="./screenshots/7.png">
+<img width="300" alt="screenshot" src="./screenshots/1.png">
+<img width="300" alt="screenshot" src="./screenshots/2.png">
+<img width="300" alt="screenshot" src="./screenshots/3.png">
+<img width="300" alt="screenshot" src="./screenshots/4.png">
+<img width="300" alt="screenshot" src="./screenshots/5.png">
+<img width="300" alt="screenshot" src="./screenshots/6.png">
+<img width="300" alt="screenshot" src="./screenshots/7.png">
