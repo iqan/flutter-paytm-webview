@@ -53,11 +53,11 @@ class _PaymentState extends State<Payment> {
           if (url.contains('callback')) {
             flutterWebviewPlugin.getCookies().then((cookies) {
               print("cookies $cookies");
-              print('TXNID $cookies["TXNID"]');
-              print('STATUS $cookies["STATUS"]');
-              print('RESPCODE $cookies["RESPCODE"]');
-              print('RESPMSG $cookies["RESPMSG"]');
-              print('TXNDATE $cookies["TXNDATE"]');
+              print('TXNID ${cookies["TXNID"]}');
+              print('STATUS ${cookies["STATUS"]}');
+              print('RESPCODE ${cookies["RESPCODE"]}');
+              print('RESPMSG ${cookies["RESPMSG"]}');
+              print('TXNDATE ${cookies["TXNDATE"]}');
               // add logic to make show payment status
               flutterWebviewPlugin.close();
             });
